@@ -60,31 +60,6 @@ function DoctorDashboard() {
           </div>
         </div>
       </div>
-
-      {/* <div className="flex flex-col lg:flex-row justify-between place-content-center place-items-star px-3 lg:px-10 py-10">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-6xl font-semibold">Hello Dr. Rishi Raj</h1>
-          <p className="text-2xl medium italic">
-            "An apple a day keeps us in pay, and our patients healthy all the
-            way!"
-          </p>
-          <div className="flex flex-col gap-4 h-auto lg:w-[40rem] border border-black rounded-xl p-3">
-            <h1 className="text-3xl font-semibold text-center lg:text-left">Upcoming Appointments</h1>
-            <p className="text-xl bg-orange-200 rounded-xl border border-black p-1">Patient Name - Date/Time</p>
-            <p className="text-xl bg-orange-200 rounded-xl border border-black p-1">Patient Name - Date/Time</p>
-            <p className="text-xl bg-orange-200 rounded-xl border border-black p-1">Patient Name - Date/Time</p>
-          </div>
-        </div>
-        <div className="flex flex-col place-content-center place-items-center gap-5 pt-5">
-          <button className="bg-blue-300 border border-black rounded-2xl p-2 w-64 hover:bg-yellow-300">
-            <span className="text-3xl">Patient Logs</span>
-          </button>
-          <button className="bg-blue-300 border border-black rounded-2xl p-2 w-64 hover:bg-yellow-300">
-            <span className="text-3xl">Calendar</span>
-          </button>
-        </div>
-      </div>
-      <Footer/> */}
     </div>
   );
 }
