@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGoogle } from "react-icons/fa";
 
 function Register() {
   return (
@@ -22,6 +23,7 @@ function Register() {
             <input
               type="text"
               className="rounded-[15px] border-2 border-black p-2 text-xl w-[80%]"
+              placeholder="Enter your username"
             />
             <input
               type="password"
@@ -30,23 +32,32 @@ function Register() {
             <p className="text-lg hover:underline hover:italic transition duration-150">
               Forgot password?
             </p>
-            <a href="patient-dash" className="flex place-content-center place-items-center w-full">
-              <button className="border-2 border-black text-black bg-white hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 rounded-[15px] px-4 py-2 w-[80%]">
-                <span className="text-2xl ">Log In</span>
-              </button>
-            </a>
+            <div className="flex flex-col gap-5 justify-between place-content-center place-items-center w-full">
+              <a
+                href="patient-dash"
+                className="flex place-content-center place-items-center w-[80%]"
+              >
+                <button className="border-2 border-black text-black bg-white hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 rounded-[15px] px-4 py-2 w-[80%]">
+                  <span className="text-2xl ">Log In</span>
+                </button>
+              </a>
+              <h1 className="text-xl">OR</h1>
+              <a
+                href="patient-dash"
+                className="flex place-content-center place-items-center w-[80%]"
+              >
+                <button className="border-2 border-black text-black bg-white hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 rounded-[15px] px-4 py-2 w-[80%]">
+                  <span className="flex text-2xl items-center justify-between">
+                    Sign in with <FaGoogle />
+                  </span>
+                </button>
+              </a>
+            </div>
+
             <p className="text-lg">
               Not a member yet?{" "}
               <span className="italic hover:underline">Register</span>
             </p>
-            <div className="flex justify-between items-center w-[60%]">
-              <p className="text-2xl font-medium hover:bg-blue-500 hover:text-white transition duration-300 rounded-full border-2 border-black px-5 py-2">
-                Patient
-              </p>
-              <p className="text-2xl font-medium hover:bg-blue-500 hover:text-white transition duration-300 rounded-full border-2 border-black px-5 py-2">
-                Doctor
-              </p>
-            </div>
           </div>
         </div>
       </div>
