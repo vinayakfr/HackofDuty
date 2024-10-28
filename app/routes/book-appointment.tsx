@@ -13,7 +13,7 @@ function BookAppointment() {
               <div className="flex items-center">
                 <input
                   type="text"
-                  className="text-white font-medium rounded-full border-4 border-blue-500 px-2 py-2"
+                  className="text-black font-medium rounded-full border-4 border-blue-500 px-2 py-2"
                   placeholder="Search"
                 />
                 <IoSearchCircleSharp size={50} color="#3b82f6"/>

@@ -81,8 +81,8 @@ function Hero() {
             </div>
           </div>
           <p className="text-lg lg:text-3xl italic text-center lg:w-[60rem]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            magni labore exercitationem quasi aut aperiam!
+            Ever felt annoyed while standing in long queues, booking
+            appointments and keeping records of your medical reports.
           </p>
           <Tilt>
             <div className="flex justify-between gap-8 items-center rounded-2xl p-4 bg-white/50 backdrop-blur-md shadow-lg">
