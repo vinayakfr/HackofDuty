@@ -98,9 +98,9 @@ function Hero() {
               </div>
             </div>
           </Tilt>
-          <a href="/register">
-            <button className="bg-white rounded-full shadow-lg hover:shadow-inner px-3 py-2 hover:scale-105 transition duration-200">
-              <span className="text-xl">Create an account</span>
+          <a href="/Log-in">
+            <button className="bg-white rounded-full shadow-lg hover:shadow-inner hover:border px-7 py-3 hover:scale-105 transition duration-200 lg:translate-y-4">
+              <span className="text-xl">Log-in</span>
             </button>
           </a>
         </div>

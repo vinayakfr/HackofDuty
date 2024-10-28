@@ -3,10 +3,11 @@ import React from "react";
 function Register() {
   return (
     <div>
-      <div className="flex justify-between items-center mt-3 px-3">
+      <img src="Component.png" alt="" className="absolute w-full h-screen -translate-y-3"/>
+      <div className="flex justify-between items-center mt-3 px-3 relative">
         <h1 className="text-4xl font-bold">Sanjeevani</h1>
       </div>
-      <div className="h-screen w-full flex place-content-center place-items-center">
+      <div className="h-screen w-full flex place-content-center place-items-center relative">
         <div className="flex flex-col gap-5 place-items-center place-content-center h-auto w-[40%] p-4">
           <h1 className="text-4xl font-bold">Log-in</h1>
           <p className="text-2xl font-medium">
