@@ -5,10 +5,10 @@ function DoctorProfile() {
     <div className="flex place-content-center place-items-center h-screen px-10">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 p-3 w-full h-[95%] bg-gray-300 rounded-2xl overflow-y-auto">
         <div className="flex flex-col gap-10 items-center ">
-          <div className="h-[70%] w-full bg-orange-500 rounded-2xl">
-            {/* Profile picture */}
+          <div className="h-[55%] w-full rounded-2xl">
+            <img src="new doctor.png" alt="" className="rounded-2xl"/>
           </div>
-          <div className="h-[30%] w-full bg-rose-500 rounded-2xl">
+          <div className="h-[45%] w-full bg-rose-500 rounded-2xl">
             {/* Profile picture */}
           </div>
         </div>
@@ -30,8 +30,12 @@ function DoctorProfile() {
             <p className="text-lg">0000000000</p>
           </div>
           <div className="flex flex-col items-start w-full">
-            <h1 className="text-semibold text-2xl">Blood Group:</h1>
-            <p className="text-lg">000000000</p>
+            <h1 className="text-semibold text-2xl">Speciality:</h1>
+            <p className="text-lg">General Physician</p>
+          </div>
+          <div className="flex flex-col items-start w-full">
+            <h1 className="text-semibold text-2xl">Qualification:</h1>
+            <p className="text-lg">MBBS MD</p>
           </div>
           <div className="flex flex-col gap-2 justify-between items-start w-full">
             <h1 className="text-semibold text-2xl">Address</h1>
