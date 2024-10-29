@@ -12,7 +12,7 @@ export default function SOS() {
         <input
           type="hidden"
           name="subject"
-          value="New Submission from your Website"
+          value="ALERT!! Patient Incoming"
         />
         <div className="flex place-content-center place-items-center w-full">
           <input
@@ -38,13 +38,21 @@ export default function SOS() {
           placeholder="Message"
           name="message"
           id="message"
-          value="EMERGENCY"
+          value="ALERT!! Patient Incoming"
+          className="hidden"
+          required
+        />
+        <input
+          placeholder="ABHA ID:"
+          name="ABHA ID:"
+          id="abha"
+          value="91224440082317"
           className="hidden"
           required
         />
         <button
           type="submit"
-          className="h-48 w-48 rounded-full border-4 border-rose-400 bg-rose-500 shadow-[rgba(0,0,0,0.6)_6px_5px_2px_1px] hover:shadow-none transition-all duration-200 hover:translate-y-1 hover:bg-rose-600"
+          className="h-40 w-40 rounded-full border-4 border-rose-400 bg-rose-500 shadow-[rgba(0,0,0,0.6)_6px_5px_2px_1px] hover:shadow-none transition-all duration-200 hover:translate-y-1 hover:bg-rose-600"
         >
           <span className="text-4xl text-white font-bold">SOS</span>
         </button>

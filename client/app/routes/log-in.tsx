@@ -61,7 +61,9 @@ function Register() {
             <div className="flex place-content-end place-items-end w-[80%]">
               <p className="text-lg">
                 Not a member yet?{" "}
-                <span className="italic hover:underline">Register</span>
+                <span className="italic hover:underline">
+                  <a href="/register">Register</a>
+                </span>
               </p>
             </div>
           </div>

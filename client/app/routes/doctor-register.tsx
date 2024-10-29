@@ -63,9 +63,11 @@ function DoctorReg() {
           </div>
         </div>
         <div className="flex place-content-end place-items-center w-full px-40 translate-y-20 ">
-          <button className="bg-white hover:bg-blue-500 hover:text-white transition duration-300 border-2 border-black text-3xl font-medium px-3 py-2 rounded-2xl">
-            <span>Continue</span>
-          </button>
+          <a href="/doctor-dash">
+            <button className="bg-white hover:bg-blue-500 hover:text-white transition duration-300 border-2 border-black text-3xl font-medium px-3 py-2 rounded-2xl">
+              <span>Continue</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

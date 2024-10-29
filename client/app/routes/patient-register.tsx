@@ -46,7 +46,7 @@ function PatientRegister() {
                   className="border-2 border-blue-500 rounded-2xl p-3 text-xl"
                 ></textarea>
               </div>
-              <div className="flex flex-col gap-2 place-content-center place-items-start">
+              <div className="flex flex-col gap-2 place-content-center place-items-start ">
                 <label htmlFor="" className="text-xl font-medium">
                   Enter ABHA ID
                 </label>
@@ -55,14 +55,19 @@ function PatientRegister() {
                   placeholder="ABHA Card"
                   className="rounded-2xl border-2 border-blue-500 px-3 py-2 text-xl"
                 />
+                <a href="https://abha.abdm.gov.in/abha/v3/" className="text-lg font-light hover:underline">
+                  Create an ABHA card
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className="flex place-content-end place-items-center w-full px-40 translate-y-20 ">
-          <button className="bg-white hover:bg-blue-500 hover:text-white transition duration-300 border-2 border-black text-3xl font-medium px-3 py-2 rounded-2xl">
-            <span>Continue</span>
-          </button>
+          <a href="/patient-dash">
+            <button className="bg-white hover:bg-blue-500 hover:text-white transition duration-300 border-2 border-black text-3xl font-medium px-3 py-2 rounded-2xl">
+              <span>Continue</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

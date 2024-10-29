@@ -33,19 +33,11 @@ function DoctorDashboard() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-4 place-content-center place-items-start h-[47rem] w-full lg:w-[30%] rounded-2xl p-4 bg-white">
+          <div className="flex flex-col gap-4 place-content-start place-items-start h-[47rem] w-full lg:w-[30%] rounded-2xl p-4 bg-white">
             <h1 className="text-3xl font-medium">Next Appointment</h1>
           
             <div className="flex justify-between items-center w-full bg-gray-300 rounded-2xl pr-2">
               <img src="Patient.png " alt="" className="w-[50%] rounded-2xl" />
-              <div className="flex flex-col place-content-center place-items-start gap-3">
-                <h1>Sachin Singh</h1>
-                <h1>Male</h1>
-                <h1>9818367251</h1>
-              </div>
-            </div>
-            <div className="flex justify-between items-center w-full bg-gray-300 rounded-2xl pr-2">
-              <img src="Patient2.jpg " alt="" className="w-[50%] rounded-2xl" />
               <div className="flex flex-col place-content-center place-items-start gap-3">
                 <h1>Sachin Singh</h1>
                 <h1>Male</h1>

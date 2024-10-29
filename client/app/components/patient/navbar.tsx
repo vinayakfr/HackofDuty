@@ -9,7 +9,7 @@ function Navbar() {
         </a>
         <div className="flex items-center gap-4">
           <a
-            href="/book-appointments"
+            href="/book-appointment"
             className="text-xl font-medium hover:underline"
           >
             Appointments
